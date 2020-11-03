@@ -50,5 +50,6 @@ func ClosureFun()  {
 		fmt.Printf("adder 0 + 1 + ... +%d  = %d \n",i,add(i))
 		//fmt.Printf("fibonacci i %d = %d \n",i,f())
 	}
+	// 金典的接口设计开发模式
 	printFileContents(f)
 }

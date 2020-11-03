@@ -6,12 +6,14 @@ import (
 	"log"
 	"notes/container"
 	"notes/fun"
+	"notes/unsafe"
 	"os"
 )
 
 
 
 func main() {
+	unsafe.Unsafe()
 	fmt.Println("Let`s go to learn go")
 	fmt.Println("请选择你想学习的模块")
 	fmt.Printf("base  container  fun \n")
